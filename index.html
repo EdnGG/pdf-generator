@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing PDFs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <div class="col-md-6 col-md-offset-3">
+    <div id="contenidoPdf" class="col-sm-12">
+
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Headers</th>
+            <th>Headers</th>
+            <th>Headers</th>
+            <th>Headers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <button id="generatePdf" class="btn btn-success pull-right">
+      generar pdf HTML IMAGE
+    </button>
+
+    <button id="generatePdfHTML" class="btn btn-info pull-right">
+      generar pdf HTML
+    </button>
+
+  </div>
+
+  <!-- <a href="#" onclick="return xepOnline.Formatter.Format('pdf-container',{render:'download'});">
+
+        generate PDF
+      </a> -->
+  </div>
+  </div>
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script defer src="./assets/vendor/html2canvas.js"></script>
+  <script defer src="./assets/vendor/jspdf.js"></script>
+  <script defer src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
