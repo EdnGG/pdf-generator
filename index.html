@@ -4,70 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css">
   <title>Testing PDFs</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-  <div id="main-container">
-    <div id="target">
-      <div id="list">
-        <ul>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum, maiores exercitationem odit quibusdam
-            quidem nostrum provident accusamus, vero vitae, suscipit sapiente nobis laudantium quae animi earum quaerat
-            explicabo saepe!</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nihil aliquam, illo beatae iure expedita
-            cum
-            iusto vel earum architecto blanditiis quas nemo itaque harum consequatur fugiat, delectus veniam ex!</li>
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa deleniti iste qui eligendi, nesciunt
-            delectus
-            dignissimos ab perferendis veniam soluta blanditiis est rerum dolores, corrupti consectetur incidunt id.
-            Odit,
-            aspernatur.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum unde, corrupti laboriosam eum sed
-            iusto
-            ipsa hic enim delectus optio porro, esse, nesciunt numquam nam tenetur ratione ea? Eos, tenetur!</li>
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure possimus doloribus aperiam molestias
-            voluptatum
-            delectus voluptate, architecto nobis asperiores placeat cumque harum hic blanditiis illum odit deleniti
-            ipsa.
-            Aspernatur, eum?</li>
-        </ul>
-      </div>
-      <div id="table">
+  <div class="col-md-6 col-md-offset-3">
+    <div id="contenidoPdf" class="col-sm-12">
 
-        <table>
-          <thead>
-            <tr>
-              <th>Headers</th>
-              <th>Headers</th>
-              <th>Headers</th>
-              <th>Headers</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Headers</th>
+            <th>Headers</th>
+            <th>Headers</th>
+            <th>Headers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+          <tr>
+            <td>un dato</td>
+            <td>ods datos</td>
+            <td> tercer dato</td>
+            <td>cuarto dato</td>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
-    <br>
-    <div id="button-pdf-container">
-      <button id="button-pdf">
-        Click me
-      </button>
-      <!-- <a href="#" onclick="return xepOnline.Formatter.Format('pdf-container',{render:'download'});">
+
+    <button id="generatePdf" class="btn btn-success pull-right">
+      generar pdf HTML IMAGE
+    </button>
+
+    <button id="generatePdfHTML" class="btn btn-info pull-right">
+      generar pdf HTML
+    </button>
+
+  </div>
+
+  <!-- <a href="#" onclick="return xepOnline.Formatter.Format('pdf-container',{render:'download'});">
 
         generate PDF
       </a> -->
-    </div>
+  </div>
   </div>
 
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-  <script defer src="./assets/vendor/html2canvas.js"></script> 
-  <script defer src="./assets/vendor/jspdf.js"></script> 
-  <script defer src="./assets/js/app.js"></script> 
+
+  <script defer src="./assets/vendor/html2canvas.js"></script>
+  <script defer src="./assets/vendor/jspdf.js"></script>
+  <script defer src="./assets/js/app.js"></script>
 
 </body>
 

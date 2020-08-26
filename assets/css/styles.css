@@ -1,4 +1,12 @@
-*{
-padding: 0px;
-margin: 0px;
+body{
+  padding: 20px;
+}
+
+#contenidoPdf{
+  background-color: white;
+  padding: 20px;
+}
+
+.btn{
+  margin: 15px
 }
