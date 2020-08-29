@@ -1,5 +1,6 @@
 body{
-  padding: 20px;
+  padding: 50px;
+  margin: 50px;
 }
 
 #contenidoPdf{
@@ -10,3 +11,28 @@ body{
 .btn{
   margin: 15px
 }
+
+/* .main-title{
+  /* display: flex; */
+  /* justify-content: right; */
+
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.main-title{
+  padding-left: 150px;
+}
+
+/* label{
+  font-size: xx-small;
+} */
+
+/* input {
+  float: left;
+} */

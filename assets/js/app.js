@@ -15,7 +15,7 @@ $("#generatePdf").click(function (e) {
     backgroundColor: '#fff',
   }
 
-  pdf.addHTML(document.querySelector("#contenidoPdf"), options, function () {
+  pdf.addHTML(document.querySelector("#contenidoPdf1"), options, function () {
     pdf.save(`pdfdetest.pdf`);
   });
 })
