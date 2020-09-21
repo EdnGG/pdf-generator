@@ -24,7 +24,6 @@
           <div id="contenidoPdf1" class="modal-content">
             <!-- PDF -->
             <div class="modal-header header-container">
-
               <figure class="logo">
                 <img src="./assets/images/logo-valvesolutions.png" alt="Blog Logotipo">
               </figure>
@@ -132,47 +131,211 @@
                     </div>
                   </div>
                 </div>
-                <!-- / Second part -->
+
               </div>
             </div>
+            <!-- / Second part  -->
+
+            <!-- Third part  -->
             <div class="modal-body data-seccion">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Arrangement
+                    Type</h6>
                   <div class="form-group row">
-                    <label for="inputElectricActuator" class="col-sm-3 col-form-label">Electric Actuator</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputElectricActuator">
-                      <!-- <h6> ejemplo 1</h6> -->
-                    </div>
-                    <label for="inputBrand" class="col-sm-3 col-form-label">Brand</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputBrand">
-                      <!-- <h6> ejemplo 1</h6> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="form-group row">
-                    <label for="inputModelNumber" class="col-sm-3 col-form-label">Model Number</label>
-                    <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputModelNumber">
-                      <!-- <h6> ejemplo 1</h6> -->
+                    <div class="col-sm-12">
+                      <figure>
+                        <img src="./assets/images/table.png" class="rounded mx-auto d-block" alt="Blog Logotipo"
+                          style="width: 600px;">
+                      </figure>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Update</button>
+              <div class="row">
+                <div class="container">
+                  <div class="" style="display:flex;
+                  justify-content: center;
+                  ">
+                    <input type="text" class="form-control" style="width:25%" id="inputArrangement">
+                  </div>
+                </div>
               </div>
             </div>
+
+            <!-- Fourth Seccion -->
+
+            <div class="modal-body data-seccion">
+              <div class="row">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Bonnet Information
+                  </h6>
+                  <div class="form-group row">
+                    <div class="col-sm-12">
+                      <figure>
+                        <img src="./assets/images/table.png" class="rounded mx-auto d-block" alt="Blog Logotipo"
+                          style="width: 600px;">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="" style="display:flex;
+                  justify-content: center;
+                  ">
+                    <input type="text" class="form-control" style="width:25%" id="bonnetInformation">
+                  </div>
+                </div>
+              </div> <br>
+              <div class="row">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Dimensions (Closets 0.001)
+                  </h6> <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4" style="
+                display:flex;
+                ">
+                  <label for="inputDimensionsA" class="col-sm-4 col-form-label">A</label>
+                  <div class="col-sm-8" style="align-content: space-between;">
+                    <input type="text" class="form-control" id="inputDimensionsA">
+                  </div>
+                  <!--2  -->
+                  <label for="inputDimensionsB" class="col-sm-4 col-form-label">B</label>
+                  <div class="col-sm-8" style="align-content: space-between;">
+                    <input type="text" class="form-control" id="inputDimensionsB">
+                  </div>
+                  <!--  -->
+                  <!-- 3 -->
+                  <label for="inputDimensionsC" class="col-sm-4 col-form-label">C</label>
+                  <div class="col-sm-8" style="align-content: space-between;">
+                    <input type="text" class="form-control" id="inputDimensionsC">
+                  </div>
+                  <!--  -->
+                </div>
+              </div><br>
+
+              <!-- BOLT HOLES -->
+
+              <div class="row">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Bolt Holes
+                  </h6> <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6" style="display:flex;">
+                  <label for="inputDrilled" class="col-sm-5 col-form-label">Drilled</label>
+                  <div class="col-sm-7" style="align-content: space-between;">
+                    <input type="text" class="form-control" id="inputDrilled">
+                  </div>
+                  <!-- -->
+                  <label for="inputDrilled&Tapped" class="col-sm-5 col-form-label">Drilled & Tapped</label>
+                  <div class="col-sm-7" style="align-content: space-between;">
+                    <input type="text" class="form-control" id="inputDrilled&Tapped">
+                  </div>
+                </div>
+              </div><br>
+
+              <!-- / BOLT HOLES -->
+
+              <!-- HOLE SIZE -->
+
+              <div class="row-12 text-center">
+                <div class="col-sm-12" style="display: flex;
+                text-align: end;">
+                  <label for="inputHoleSize" style="padding-right: 0%;" class="col-sm-8 col-form-label">Hole Size and/or
+                    Thread/Inch</label>
+                  <div class="col-sm-4" style="align-content: center;">
+                    <input type="text" class="form-control" id="inputHoleSize" style="width:25%">
+                  </div>
+                </div>
+              </div><br>
+
+              <!--  / HOLE SIZE -->
+
+              <!--  OTHER-->
+
+              <div class="row">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Other
+                  </h6> <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div class="" style="display:flex;
+                    justify-content: center;">
+                    <input type="text" class="form-control" style="width:25%" id="bonnetOther">
+                  </div>
+                </div>
+              </div><br>
+
+              <!--  / OTHER-->
+
+              <!--  SHAFT INFORMATION -->
+
+              <div class="modal-body data-seccion">
+                <div class="row">
+                  <div class="col-12">
+                    <h6 style="
+                      display: flex;
+                      justify-content: center;">Shaft Information
+                    </h6>
+                    <div class="form-group row">
+                      <div class="col-sm-12">
+                        <figure>
+                          <img src="./assets/images/table.png" class="rounded mx-auto d-block" alt="Blog Logotipo"
+                            style="width: 600px;">
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="container">
+                    <div class="" style="display:flex;
+                                  justify-content: center;
+                                  ">
+                      <input type="text" class="form-control" style="width:25%" id="bonnetInformation">
+                    </div>
+                  </div>
+                </div> <br>
+              </div>
+
+              <!-- / SHAFT INFORMATION  -->
+
+
+            </div>
+
+
+            <!-- / Fourth Seccion -->
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Update</button>
+            </div>
+
           </div>
         </div>
       </div>
 
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-        Open modal
+        Open 3Way modal
       </button>
 
 
