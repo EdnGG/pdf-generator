@@ -235,18 +235,37 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm-6" style="display:flex;">
-                  <label for="inputDrilled" class="col-sm-5 col-form-label">Drilled</label>
-                  <div class="col-sm-7" style="align-content: space-between;">
+                <div class="col-sm-12" style="display:flex;
+                /* align-content: center; */
+                /* justify-content:center; */
+                text-align:center;">
+                  <h6 class="col-sm-6" style="justify-content:center">Drilled</h6>
+                  <!-- <div class="col-sm-7" style="align-content: space-between;">
                     <input type="text" class="form-control" id="inputDrilled">
-                  </div>
+                  </div> -->
                   <!-- -->
-                  <label for="inputDrilled&Tapped" class="col-sm-5 col-form-label">Drilled & Tapped</label>
-                  <div class="col-sm-7" style="align-content: space-between;">
+                  <h6 class="col-sm-6" style="justify-content:center">Drilled & Tapped</h6>
+                  <!-- <div class="col-sm-7" style="align-content: space-between;">
                     <input type="text" class="form-control" id="inputDrilled&Tapped">
+                  </div> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div style="
+                display:flex;
+                /* align-content: center; */
+                justify-content:center;
+                /* text-align:center; */
+                ">
+                    <input type="text" class="form-control" id="inputDrilled&Tapped" style="width:25%">
                   </div>
+
                 </div>
               </div><br>
+
+
+
 
               <!-- / BOLT HOLES -->
 
@@ -279,7 +298,8 @@
                 <div class="container">
                   <div class="" style="display:flex;
                     justify-content: center;">
-                    <input type="text" class="form-control" style="width:25%" id="bonnetOther">
+                    <textarea type="text" class="form-control" style="width:60%;" name="other1" rows="3" cols="50"
+                      id="bonnetOther"></textarea>
                   </div>
                 </div>
               </div><br>
@@ -366,7 +386,7 @@
                     </div>
                     <!-- / H-->
                   </div>
-                </div><br>
+                </div>
                 <!--  -->
               </div><br>
 
@@ -378,73 +398,102 @@
                 <div class="col-12">
                   <h6 style="
                     display: flex;
-                    justify-content: center;">Actuator Requirements
+                    justify-content: center;">Actuator Requirements Seccion 1
                   </h6> <br>
                 </div>
               </div>
-
-              <div class="row" style="display:flex;">
-                <div class="col-sm-3" style="
+              <div class="modal-body data-seccion" style="display:flex;">
+                <div class="row" style="text-align: center;">
+                  <div class="container" style="
                   display:flex;
-                  /* flex-wrap:nowrap; */
-                  /* justify-content:center; */
-                  /* justify-content:space-evenly; */
-                  /* align-items:center; */
-              
-              
+                  justify-content:center;
+                  align-items:center;
                 ">
-                  <!-- D-->
-                  <label for="inputDimensionsA" class="col-sm-5 col-form-label">Electric</label>
-                  <div class="col-sm-7" style="align-content: space-between;">
-                    <input type="text" class="form-control" id="inputDimensionsA">
-                  </div>
-                  <!-- / D-->
-                  <!--  E-->
-                  <label for="inputDimensionsB" class="col-sm-6 col-form-label">Pneumatic</label>
-                  <div class="col-sm-6" style="align-content: space-between;">
-                    <input type="text" class="form-control" id="inputDimensionsB">
-                  </div>
-                  <!-- / E-->
-                  <!-- F-->
-                  <label for="inputDimensionsC" class="col-sm-8 col-form-label">2 Positions</label>
-                  <div class="col-sm-4" style="align-content: space-between;">
-                    <input type="text" class="form-control" id="inputDimensionsC">
-                  </div>
-                  <!-- / F-->
-                  <!--  G-->
-                  <label for="inputDimensionsB" class="col-sm-7 col-form-label">Modulating</label>
-                  <div class="col-sm-5" style="align-content: space-between;">
-                    <input type="text" class="form-control" id="inputDimensionsB">
-                  </div>
-                  <!-- / G-->
 
+                    <label for="inputDimensionsA" class="col-sm-6 col-form-label">Requirement 1</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="col-sm-6 form-control" style="width:50%;" id="inputDimensionsA">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -->
+                <div class="row" style="text-align: center;">
+                  <div class="container" style="
+                  display:flex;
+                  justify-content:center;
+                  align-items:center;">
+                    <label for=" inputDimensionsb" class="col-sm-6 col-form-label">Requirement 2</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="col-sm-6 form-control" style="width:50%;" id="inputDimensionsB">
+                    </div>
+                  </div>
                 </div>
               </div><br>
 
               <!--  -->
 
+              <div class="row">
+                <div class="col-12">
+                  <h6 style="
+                    display: flex;
+                    justify-content: center;">Actuator Requirements Seccion 2
+                  </h6> <br>
+                </div>
+              </div>
+              <div class="modal-body data-seccion" style="display:flex;">
+                <div class="row" style="text-align: center;">
+                  <div class="container" style="
+                  display:flex;
+                  justify-content:center;
+                  align-items:center;
+                ">
 
+                    <label for="inputDimensionsA" class="col-sm-6 col-form-label">Requirement 3</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="col-sm-6 form-control" style="width:50%;" id="inputDimensionsA">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- -->
+                <div class="row" style="text-align: center;">
+                  <div class="container" style="
+                  display:flex;
+                  justify-content:center;
+                  align-items:center;">
+                    <label for=" inputDimensionsb" class="col-sm-6 col-form-label">Requirement 4</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="col-sm-6 form-control" style="width:50%;" id="inputDimensionsB">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <!-- No pasar de este div -->
             </div>
-
-
-            <!-- / Fourth Seccion -->
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Update</button>
-            </div>
-
           </div>
+
+          <!-- / Fourth Seccion -->
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Update</button>
+          </div>
+
         </div>
       </div>
+    </div>
 
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-        Open 3Way modal
-      </button>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+      Open 3Way modal
+    </button>
 
 
-      <!-- <ul class="list-group">
+    <!-- <ul class="list-group">
         <li class="list-group-item">Cras justo odio</li>
         <li class="list-group-item">Dapibus ac facilisis in</li>
         <li class="list-group-item">Morbi leo risus</li>
@@ -452,7 +501,7 @@
         <li class="list-group-item">Vestibulum at eros</li> 
       </ul>-->
 
-      <!-- <table class="table table-striped">
+    <!-- <table class="table table-striped">
         <thead>
           <tr>
             <th>Headers</th>
@@ -488,14 +537,14 @@
 
 
 
-      <button id="generatePdf" class="btn btn-success pull-right">
-        generar pdf HTML IMAGE
-      </button>
+    <button id="generatePdf" class="btn btn-success pull-right">
+      generar pdf HTML IMAGE
+    </button>
 
-      <button id="generatePdfHTML" class="btn btn-info pull-right">
-        generar pdf HTML
-      </button>
-    </div>
+    <button id="generatePdfHTML" class="btn btn-info pull-right">
+      generar pdf HTML
+    </button>
+  </div>
   </div>
 
 
